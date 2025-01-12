@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/userFragment">
+    app:startDestination="@id/weatherFragment">
 
     <fragment
         android:id="@+id/homeFragment"
@@ -17,4 +17,10 @@
         android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.user.UserFragment"
         android:label="UserFragment"
         tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.home.HomeFragment"
+        tools:layout="@layout/fragment_weather"
+        android:label="Weather Fragment" />
 </navigation>

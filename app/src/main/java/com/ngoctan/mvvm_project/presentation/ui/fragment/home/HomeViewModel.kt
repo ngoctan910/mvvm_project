@@ -13,9 +13,9 @@ class HomeViewModel: ViewModel() {
     private var _weather: MutableStateFlow<Weather?> = MutableStateFlow(null)
     val weather: StateFlow<Weather?> = _weather
 
-    fun currentWeather() {
+    fun currentWeather(city: String) {
         viewModelScope.launch {
-            appRepository.getWeather().collect { weather ->
+            appRepository.getWeather(city).collect { weather ->
                 _weather.value = weather
             }
         }

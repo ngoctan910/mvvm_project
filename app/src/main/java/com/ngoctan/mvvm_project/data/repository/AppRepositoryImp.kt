@@ -9,8 +9,8 @@ import kotlinx.coroutines.flow.flow
 class AppRepositoryImp: AppRepository {
     val apiService = RetrofitClient.apiService
 
-    override fun getWeather(): Flow<Weather> = flow {
-        val response = apiService.getWeather("HaNoi", "5b14bf48d1725eec39f8fc50ce94680c"
+    override fun getWeather(city: String): Flow<Weather> = flow {
+        val response = apiService.getWeather(city, "5b14bf48d1725eec39f8fc50ce94680c"
                                             ,"metric")
         if (response.isSuccessful) {
             response.body()?.let { weather ->

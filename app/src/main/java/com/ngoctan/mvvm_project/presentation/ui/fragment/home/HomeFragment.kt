@@ -9,11 +9,12 @@ import androidx.lifecycle.lifecycleScope
 import com.ngoctan.mvvm_project.data.model.weather.Weather
 import com.ngoctan.mvvm_project.data.network.ApiService
 import com.ngoctan.mvvm_project.databinding.FragmentHomeBinding
+import com.ngoctan.mvvm_project.databinding.FragmentWeatherBinding
 import com.ngoctan.mvvm_project.presentation.di.ViewModelModule
 import kotlinx.coroutines.launch
 
 class HomeFragment: Fragment() {
-    lateinit var binding: FragmentHomeBinding
+    lateinit var binding: FragmentWeatherBinding
     val viewModel = ViewModelModule.homeViewModel
 
     override fun onCreateView(
@@ -21,7 +22,7 @@ class HomeFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHomeBinding.inflate(layoutInflater)
+        binding = FragmentWeatherBinding.inflate(layoutInflater)
         return binding.root
     }
 
@@ -29,12 +30,16 @@ class HomeFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
         lifecycleScope.launch {
             viewModel.weather.collect {
-                binding.view.text = it?.name
+                binding.edtCity.setText(it?.name)
+                binding.tvCity.text = it?.name
+                binding.city.text = it?.name
+                binding.tvCountry.text = it?.sys?.country
+                binding.tvTemperature.text = it?.main?.temp?.toString()
             }
         }
 
-        binding.btnClick.setOnClickListener {
-            viewModel.currentWeather()
+        binding.ivSearch.setOnClickListener {
+            viewModel.currentWeather(binding.edtCity.text.toString())
         }
     }
 }
