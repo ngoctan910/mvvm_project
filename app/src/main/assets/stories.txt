@@ -1,0 +1,98 @@
+{
+  "y_te": [
+    {
+      "id": 1,
+      "name": "Đừng quên gọi lại",
+      "content": "Tại một phòng khám tư. - Alô, bác sĩ phải không ạ? Tôi cảm thấy rất mệt, mong ông đến khám giúp cho.- Xin lỗi, thưa bà, hiện giờ bác sĩ đi vắng. Tôi chỉ là y tá trực. Bác sĩ bận dự hội nghị ba ngày nữa mới về. Xin bà thông cảm, lúc đó bà hãy gọi điện lại nhé.- Ba ngày nữa ư? Nhưng đến lúc đó tôi chết rồi thì sao?- Trong trường hợp đó, bà đừng quên nhắn người nhà gọi điện thoại lại để tôi còn xóa tên bà trong sổ hẹn!"
+    },
+    {
+      "id": 2,
+      "name": "Mặc cả khéo léo",
+      "content": "Từ một làng nhỏ ở Hungary, con trai gọi điện cho bác sĩ ở Budapest và hỏi về thù lao khám bệnh cho bố mình. Bác sĩ trả lời là 1.000 forint, chàng thanh niên hẹn sẽ đón ông tại ga xe lửa. Tới lúc gặp bác sĩ, anh ta buồn rầu thông báo: Thật không may, bố tôi vừa mất rồi. Nhưng để bác sĩ khỏi bị thiệt thòi tôi đã tìm được 10 người trong làng, họ đồng ý trả 150 forint cho mỗi lần khám bệnh. Khám cho 10 người xong, anh thanh niên tiễn bác sĩ ra ga, ông này nói: Tôi chỉ yêu cầu 1.000 forint mà thu được 1.500 forint. Vì vậy tôi chia đôi phần dôi ra. Đây là 250 forint của anh. Xin cảm ơn bác sĩ! Tôi xin được nói thật là cha tôi không chết mà ở trong số 10 người đã được bác sĩ khám bệnh."
+    },
+    {
+      "id": 3,
+      "name": "Biết rõ quá rồi",
+      "content": "Một người đàn ông tới gặp nha sĩ. Ông ta run lập cập cố leo lên ghế. Thấy vậy, nha sĩ an ủi ông ta: Ông cứ yên tâm, tôi sẽ làm thật nhanh, như kiến cắn thôi mà...Thôi.. xin... xin ông khỏi mất... mất công an ủi..., tôi cũng... là 'kiến' đây."
+    },
+    {
+      "id": 4,
+      "name": "Ra điều kiện cho bệnh nhân",
+      "content": "- Nếu ngừng hẳn chơi piano, thì bệnh của cô có thể khỏi được. Khi cô ta đi rồi, người đồng nghiệp thắc mắc: Ông chữa chạy cái kiểu gì vậy? Căn bệnh của cô ta và đàn piano chẳng có gì liên quan đến nhau cả! Nhưng giữa cái đàn piano của cô ta và tôi thì có đấy, vì nó nằm ngay bên trên trần phòng ngủ của tôi."
+    },
+    {
+      "id": 5,
+      "name": "Dấu hiệu của bệnh điếc",
+      "content": "- Thưa bác sĩ, xin ông cứu chồng tôi ngay. Anh ấy bị điếc. Lâu chưa? Mới hôm nay thôi ạ. Sao bà biết đích xác thế?Hôm nay, anh ấy đi cùng tôi vào cửa hàng bán quần áo. Khi cô bán hàng nói giá tiền, đáng lẽ mặt chồng tôi phải tái đi khiếp hãi, thế mà anh ấy vẫn tủm tỉm cười ngớ ngẩn trông tội tội là."
+    },
+    {
+      "id": 6,
+      "name": "Đắt vì còn mới",
+      "content": "Một ông nhà giàu mắc bệnh về não, bác sĩ nói: Chỉ có thay óc thì ông mới sống được. Có 3 lựa chọn, thứ nhất là óc của một nhà vật lý, giá 48.000 USD. Thứ hai là óc của một giáo sư đại học, giá 500.000 USD. Cuối cùng là óc của một bộ trưởng, giá 2,4 triệu USD. Tại sao óc của quan chức lại đắt thế? Vì nó còn gần như mới."
+    }
+  ],
+  "vova": [
+    {
+      "id": 1,
+      "name": "Ai lấy ngục Bastille?",
+      "content": "Trong giờ học lịch sử nước Pháp, cô giáo thấy Vôva lơ đãng bất thình lình hỏi: “Vôva, ai đã lấy ngục Bastille?” Thưa cô, em không lấy ạ. Cô giáo giận quá, mời phụ huynh đến trường. Cô giáo nói:Trong giờ lịch sử nước Pháp, tôi hỏi ai đã lấy ngục Bastille, Vôva đã không chịu nghe giảng lại còn trả lời: “Thưa cô, em không lấy ạ”. Bác thấy thế có chịu được không cơ chứ. Ông bố Vôva đáp: Cháu nhà tôi vốn thật thà, cháu đã nói không lấy ngục Bastille nghĩa là nó không lấy đâu. Tuy nhiên, để tôi về nhà xem nó có cất ở nhà không. Cô giáo bực quá, lên mách hiệu trưởng. Chẳng dè, hiệu trưởng nói: Trẻ con có trót lấy thì nó chơi chán lại trả thôi mà."
+    },
+    {
+      "id": 2,
+      "name": "Nó hình gì?",
+      "content": "Để hiểu học trò hơn, cô giáo bảo học sinh vẽ vào một tờ giấy mơ ước mai sau của mình. Khi cô xem, có em vẽ hình máy bay tỏ ý muốn làm phi công, em thì vẽ ống nghe muốn làm bác sĩ… Riêng Natasha để tờ giấy trắng nguyên, cô hỏi: Chẳng lẽ lớn lên em không muốn làm gì cả sao? Natasha băn khoăn đáp: Lớn lên em sẽ lấy chồng, nhưng chẳng biết nó hình gì?"
+    },
+    {
+      "id": 3,
+      "name": "Biết rõ quá rồi",
+      "content": "Một người đàn ông tới gặp nha sĩ. Ông ta run lập cập cố leo lên ghế. Thấy vậy, nha sĩ an ủi ông ta: Ông cứ yên tâm, tôi sẽ làm thật nhanh, như kiến cắn thôi mà... Thôi.. xin... xin ông khỏi mất... mất công an ủi..., tôi cũng... là 'kiến' đây."
+    },
+    {
+      "id": 4,
+      "name": "Vova nghĩ bậy.",
+      "content": "Vova đi chơi với Nana. Vova chọn 1 cái ghế đá ngồi xuống, khổ đây là lần đầu tiên nên Vova lúng túng lắm không biết nói gì cả. Nghĩ mãi Vova đanh liều nói 1 câu : Nana, ấy đang nghĩ gì thế? Tớ nghĩ giống ấy !!!!!Nana trả lời bẽn lẽn. Bỗng Vova cười ha hả: Khiếp sao ấy bậy thế!!!!!!!"
+    },
+    {
+      "id": 5,
+      "name": "Vova và câu hỏi dành cho cô giáo",
+      "content": "Trong giờ học, cô giáo muốn phát triển trí tưởng tượng và khả năng cảm nhận của học sinh nhỏ tuổi; cô đưa ra mấy câu hỏi như sau: Các con hãy nghĩ xem, cái gì màu xám và rất là cứng? Bê tông ạ! Cô giáo: Giỏi quá. Nhưng mà nó còn có thể là nhựa đường nữa, thế còn cái gì màu vàng, và ở trên cánh đồng? Con bò ạ! Đúng rồi! Nhưng còn có thể là đống rơm nữa, Vova lẩm bẩm, từ phía cuối lớp: Hmmm… Cô giáo: Em đứng lên ngay.  Vova: Thế em hỏi một câu được không? Cô giáo thận trọng: Em thử nói đi! Thế cái gì trước khi cho vào miệng thì nó cứng, thẳng và khô ráo, còn sau khi ra khỏi miệng thì nó mềm nhũn, cong queo và ướt nhem? Cô giáo đứng phắt dậy, mặt đỏ bừng, tiến thẳng đến tát rất kêu vào mặt Vova. Vova xoa xoa má: Đúng rồi! Nhưng nó còn có thể là kẹo cao su nữa!"
+    },
+    {
+      "id": 6,
+      "name": "Vova và thầy giáo dự giờ",
+      "content": "Tiết tiếng Anh Hôm nay lớp học của Vova có một số thầy giáo đến dự giờ. Cô giáo và các bạn học sinh đã chuẩn bị tất cả tình huống có thể xảy ra để buổi học diễn ra được “an toàn”. Nửa tiếng trôi qua êm đẹp, còn 15 phút nữa là hết giờ, cô giáo liền hỏi học sinh câu hỏi cuối cùng: Bây giờ cô sẽ viết một câu tiếng Anh lên bảng, các em hãy cố gắng dịch nó ra tiếng Tây Ban Nha nhé! Cô giáo đang viết dở câu thì viên phấn bị rơi, cô cúi xuống nhặt và tiếp tục viết cho hết câu.  Và bây giờ ai sẽ dịch được câu này? Vova lập tức giơ tay. Cô giáo thì rất run, nhìn quanh lớp nhưng ngoài Vova ra thì chẳng có ai giơ tay cả. Cô giáo đành chỉ định Vova phát biểu. Vova rất tự tin nói dõng dạc: Giá mà cái váy nó ngắn hơn tí nữa! Cô giáo đỏ mặt, quát : Cái gì? Em ra ngay khỏi lớp học cho tôi! Vova thu gom sách vở xong rồi quay lại nhìn thầy giáo dự giờ lẩm bẩm : Đã không biết thì đừng có nhắc !!"
+    }
+  ],
+  "viet_name_va_the_gioi": [
+    {
+      "id": 1,
+      "name": "Đi tàu đoán nước",
+      "content": "Năm 2010 có 1 đoàn tàu xuyên quốc gia đi qua tất cả các nước trên thế giới.Trên tàu có 1 ông giáo sư bảo rằng cứ đi qua đất nước nào ông ta ko cần nhìn cũng biết. Mọi người ko tin bèn bảo ông ta làm thử. Ông ta thò tay ra ngoài cửa sổ đoàn tàu: “- Ở đây nóng quá! Chắc là California Mỹ rồi”. Một lúc sau ông ta lại thò tay ra ngoài và bảo: “- Chà! Lạnh thật! Đến Matxcova rồi!!” Đúng 2h sau ông ta thò tay ra cửa sổ rồi rụt vào nói: “- Mất cái đồng hồ đeo tay. Đúng đây là Việt Nam rồi !!"
+    },
+    {
+      "id": 2,
+      "name": "Chuyện  thằng  Mỹ",
+      "content": "Một bác Việt Nam ngồi ăn sáng trong quán, thì bỗng có một chú Mẽo (USA) lân la vào ngồi cạnh, vừa bỏm bẻm nhai kẹo cao su vừa bắt chuyện. Này, ở Việt Nam ăn bánh mì cả vỏ à? Ừ – khó chịu vì bị làm phiền, bác Việt Nam trả lời cộc lốc. Hừm, ở Mỹ bọn tao khác, chỉ ăn ruột thôi, cùi bánh thì nghiền ra làm bánh sừng bò, bán sang Việt Nam. Chu mỏ thổi một cái bong bóng, hắn hỏi tiếp với vẻ mặt rất tự mãn: Thế chúng mày cũng ăn mứt với bánh mì chứ? Tất nhiên – Bác Việt Nam trả lời, với vẻ ko quan tâm. Ở Mỹ khác – vừa nổ đốp một bóng kẹo cao su, thằng Mẽo vừa nói với vẻ chế diễu – bọn tao chỉ ăn hoa quả cho bữa sáng, còn vỏ, hạt thì tái chế biến thành mứt, rồi bán cho Việt Nam. Đến đây thì cú lắm rồi, bác Việt Nam bèn hỏi lại: Thế ở Mỹ chúng mày có “ấy ấy” không? Tất nhiên. Thế chúng mày làm gì với những bao OK vừa dùng xong? Vứt đi thôi, thế cũng hỏi. Mỉm cười với ánh mắt tinh quái, bác Việt Nam trả lời: Chúng tao thì khác, ở Việt Nam người ta gom tất cả OK dùng rồi để tái chế, nấu chảy ra thành chewing gum, rồi đem xuất khẩu sang… bán cho chúng mày đấy.."
+    },
+    {
+      "id": 3,
+      "name": "Sự phát triển của công nghệ",
+      "content": "Gần đây trên các báo thế giới, các nhà khoa học người Nhật có đăng tin: “Họ đã đào sâu 100m xuống lòng đất và phát hiện sợi cáp đồng 1000 năm tuổi” – Điều này chứng minh 1000 năm trước người Nhật đã xài điện thoại để bàn???!!!” Vài năm sau, người Mĩ lại đăng: “Họ đào sâu 200m xuống lòng đất và phát hiện sợi cáp quang 2000 năm tuổi!!!” – Chứng tỏ 2000 năm trước người Mĩ đã xài truyền hình cáp và Internet!!!. Chỉ sau đó 1 ngày, người Việt Nam đăng tin: “Họ đã đào sâu 500m xuống lòng đất và chẳng phát hiện gì cả!” – Chứng tỏ 5000 năm trước VN xài Wireless!!!"
+    },
+    {
+      "id": 4,
+      "name": "Tâm sự của Sê-Lốc- Hôm",
+      "content": "Anh Oắc-xơn yêu quý của tôi, Từ ngày sang Việt Nam, tôi thấy trình độ thám tử của mình còn non kém lắm! Phương pháp suy luận của tôi đối với xứ này nhiều lần bị sai bét. Sáng nay thôi, tôi vừa tiếp một người đàn ông. Chuyện tình cảm của ông ta không có gì rắc rối, “rẹc rẹc 30 giây” là xong. Nhưng tôi lại sai lầm khi thử thách về bản thân ông ta.  Lúc đó là 9 giờ sáng, tôi đang nhìn qua cửa sổ cảnh một người đi đường chửi toáng lên vì bị một chậu nước rửa bát đổ từ trên tầng 4 xuống đầu, thì có tiếng gõ cửa: Xin lỗi! Tôi muốn gặp ông Sê-lốc Hôm! Tôi đây, xin mời ông ngồi, thưa ông Nằm!  Sao thám tử đoán tôi tên Nằm? Quan sát nhanh là thói quen của tôi, trên bìa cuốn sổ tay ông cầm có ghi rõ tên ông là Tạ Văn Nằm. Ồ, tôi tên Nam, nhưng mấy em tiếp viên ở nhà hàng đã nghịch ngợm lấy bút viết thêm vào, vì các em thấy tôi thích hát Karaoke ở tư thế… nằm. À, ra thế! Hẳn ông rất vội đến đây, vì tôi thấy ông cạo râu được một bên. Việc này thám tử cũng… hơi bị nhầm. Số là tôi cạo râu bằng bàn cạo điện, sáng nay tôi đang cạo dở thì bị mất điện đột ngột cho nên một bên nhẵn nhụi còn một bên kia rậm rì mà tôi vẫn phải bắt xe buýt đến chỗ ông là vì thế. Hừm, nhưng nếu tôi nói ông rất ít đi xe buýt thì chắc là không sai? Vì tôi thấy ông không có thói quen giữ vé trong tay. Ấy, khi nãy tôi chuẩn bị xuống xe thì phụ xe đã xin cái vé để “quay vòng” cho khách khác lấy tiền bỏ túi riêng rồi!  Anh Oắc-xơn ạ, lúc đó tôi bối rối vô cùng, nhưng vẫn cố vớt vát: Thời gian gần đây ông bị sa sút về kinh tế? Ồ, ngược lại. Nhưng… vì sao mà ông đoán thế? Vì tôi thấy ông đi một đôi giày tồi, còn mới mà gót trái đã mòn vẹt trong khi gót phải vẫn còn nguyên vẹn! Hà, hà… Đó là do thành phố thường xuyên có nạn kẹt xe. Những lúc như vậy tôi thường phải đặt chân xuống mặt đường rồi rà rà theo dòng người nên gót của giày trái bị mòn nhanh. Chà, – Tôi vã mồ hôi – Thế có phải ông là người rất coi thường sức khoẻ? Sở dĩ tôi nói như vậy vì dạo nay ngày nào trời cũng có nắng to mà ông ra đường không đội mũ. Ối giời, có đấy chứ! Nhưng lúc đi bộ ra bến xe buýt bị mấy đứa thanh niên mất dạy đi xe máy cướp mất rồi! Chao ôi, bác sĩ Oắc-xơn của tôi ơi, chắc là anh tưởng tượng ra khuôn mặt của tôi lúc đó như thế nào rồi, nó dài bằng cái bơm ở mấy chỗ “Vá 9 xe đạp xe máy” vẫn đặt ở lòng đường thành phố này vậy. Nhưng bản lĩnh đã giúp tôi lấy tự tin trở lại, tôi hỏi vấn đề ông ta cần tư vấn để khỏi phải đoán… sai thêm nữa. Có lẽ từ hôm nay tôi phải đóng cửa không tiếp khách, để nghiên cứu thêm về con người ở đất nước kỳ lạ này, rồi mới tiếp tục hành nghề được. Chẳng hạn tôi đang tìm hiểu xem một số sinh viên Việt Nam rất căm thù… thời gian, đến nỗi họ luôn “giết thời gian” bằng cà phê, ruợu bia, thậm chí một cốc trà đá là có thể ngồi trầm ngâm hàng giờ đồng hồ trong căng-tin để suy nghĩ… không cụ thể về điều gì cả!? Khi nào có gì mới tôi sẽ “meo” cho anh. Chúc anh mạnh khoẻ! Bạn của anh: Sê-Lốc- Hôm!"
+    },
+    {
+      "id": 5,
+      "name": "Cuộc thi khán giả can đảm",
+      "content": "Có 1 cuôc thi hù dọa với yêu cầu ai làm cho khán giả sợ nhất là thắng . Có 3 người : 1 Nhật , 1 Mỹ , 1 Việt Nam tham gia . Người Nhật bước lên rồi bất ngờ rút dao mổ bụng mình lôi ra bộ lòng . Một số người sợ đến ngất xỉu. Người Mỹ lấy súng trường ban nát đầu mình ,óc văng tung tóe . Một số người ngất xỉu nữa . Đến người Việt Nam,2 ông Việt Nam đi dép tổ ong vác 1 quả bom ra sân khấu ngồi cưa????????? tất cả khán giả ướt hết quần…"
+    },
+    {
+      "id": 6,
+      "name": "Xử lý hậu xé váy",
+      "content": "Tokyo-Nhật bản Tại Khu phố Ginza đông nườm nượp, một anh chàng Nhật chẳng may chạm vào làm toạc chiếc váy ngắn của một cô gái Nhật. Anh ta chưa kịp nói lời xin lỗi thì cô gái đã cúi rạp người nói: “Xin lỗi đã làm phiền anh, chỉ vì chất lượng chiếc váy này tồi quá.”= New York – MỹTrên Quảng trường Time tấp nập người đi lại, 1 anh chàng Mỹ vô tình động vào làm toạc chiếc váy của một cô gái Mỹ Anh chàng này chưa kịp mở mồm thanh minh thì cô gái đã rút ngay 1 tấm danh thiếp và nói: “Đây là số phone của luật sư của tôi, ông ta sẽ tìm anh để bàn về việc quấy rối tình dục này, anh cứ chuẩn bị đi, chúng ta sẽ gặp nhau tại toà án…” Nói xong ghi lại số phone của anh chàng kia rồi ngẩng cao đầu bước đi. Paris – Pháp Trên Quảng trường Khải hoàn môn nổi tiếng TG, một chàng lãng tử Pháp không may làm toạc váy của một cô nàng Pháp. Chàng chưa kịp nói gì thì cô nàng đã cười hic hic, sau đó ghé vào tai chàng trai nói: “Nếu anh không ngại, thì tặng em một bông hồng để xin lỗi đi…” Sau khi mua một bông hồng tặng nàng xong, chàng bèn mời nàng đến 1 khách sạn nhỏ để cùng nghiên cứu vấn đề ẩn sau làn váy ngắn. London – Anh quốc Tại Quảng trường Church bên dòng sông Thames êm đềm, một chú Ăng-lê vô tình xé toạc chiếc mini skirt của một cô gái Anh. Anh chàng này chưa kịp thanh minh thanh nga thì cô gái đã vội vàng dùng tờ báo đang cầm che đi chỗ rách, mặt đỏ giừ nói: “Thưa ông, ông có thể đưa tôi về nhà được không? Nhà tôi ở phía trước, gần thôi…”  Anh chàng này bèn cởi áo quấn lại cho cô gái rồi vẫy 1 xe taxi, đưa cô gái về nhà an toàn để thay một chiếc váy mới.  Trùng Khánh – Trung Quốc Trước Tượng đài Giải phóng quân tại Trùng Khánh, một anh Tầu chẳng may làm rách toạc chiếc váy ngắn của một cô gái Trùng Khánh. Anh này chưa kịp mở miệng xin lỗi thì đã nghe tát bốp một cái bên tai. Cô gái tay thì túm chặt lấy cổ anh chàng, mồm thì rít lên: “Mày to gan nhỉ, dám ăn đậu phụ dai à? Đi gặp 110 cùng tao ngay…”  Đài Bắc – Đài Loan Tại Quảng trường Tây môn, 1 anh chàng Đài vô tình cào rách chiếc váy ngắn của một cô gái Đài. Chàng trai chưa kịp nói gì thì cô gái đã cười ha ha nói: “Chưa kịp ngã giá mà đã đòi xem hàng rồi hả anh giai?”  Hà Nội – Việt Nam Tại công viên thủ lệ, chàng thư sinh Ami chẳng may động vào làm toạc chiếc váy ngắn của một em gái Hà thành . Chàng này chưa kịp xua tay xin lỗi thì đã thấy quần của mình bị rách tơi tả rồi"
+    }
+  ]
+}

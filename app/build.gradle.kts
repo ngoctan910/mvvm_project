@@ -2,11 +2,13 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.com.google.devtools.ksp)
+    id("kotlin-parcelize")
 }
 
 android {
     namespace = "com.ngoctan.mvvm_project"
     compileSdk = 34
+
 
     defaultConfig {
         applicationId = "com.ngoctan.mvvm_project"
@@ -58,7 +60,9 @@ dependencies {
 //    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 //    implementation 'com.squareup.retrofit2:retrofit:(2.11.0)'
 //    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
+//    implementation("com.google.android.material:material:1.7.0")
 
+    implementation(libs.material.v170)
     implementation(libs.converter.gson)
     implementation(libs.retrofit)
     implementation(libs.okhttp)
@@ -70,5 +74,6 @@ dependencies {
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
     implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.navigation.compose)
 
 }

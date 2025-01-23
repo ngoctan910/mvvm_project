@@ -23,4 +23,37 @@
         android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.home.HomeFragment"
         tools:layout="@layout/fragment_weather"
         android:label="Weather Fragment" />
+
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.topic.StoryTopicFragment"
+        tools:layout="@layout/fragment_stories"
+        android:label="Story Fragment" />
+
+    <fragment
+        android:id="@+id/topicStoryFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.topic.StoryTopicFragment"
+        tools:layout="@layout/fragment_story_topic">
+
+        <action
+            android:id="@+id/action_from_topicFragment_to_storyFragment"
+            app:destination="@id/storyFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.story.StoryFragment"
+        tools:layout="@layout/fragment_title">
+
+        <action
+            android:id="@+id/action_from_storyFragment_to_storyContentFragment"
+            app:destination="@id/storyContentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyContentFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.content.StoryContentFragment"
+        tools:layout="@layout/fragment_content" />
+
 </navigation>
