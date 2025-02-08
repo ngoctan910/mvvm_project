@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.home.HomeFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.weather.WeatherFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" >
     </fragment>
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/weatherFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.home.HomeFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.weather.WeatherFragment"
         tools:layout="@layout/fragment_weather"
         android:label="Weather Fragment" />
 
@@ -55,5 +55,10 @@
         android:id="@+id/storyContentFragment"
         android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.content.StoryContentFragment"
         tools:layout="@layout/fragment_content" />
+
+    <fragment
+        android:id="@+id/locationWeatherFragment"
+        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.location_weather.LocationWeatherFragment"
+        tools:layout="@layout/fragment_location" />
 
 </navigation>

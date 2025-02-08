@@ -1,14 +1,15 @@
 package com.ngoctan.mvvm_project.presentation.di
 
 import com.ngoctan.mvvm_project.presentation.ui.fragment.content.StoryContentViewModel
-import com.ngoctan.mvvm_project.presentation.ui.fragment.home.HomeViewModel
+import com.ngoctan.mvvm_project.presentation.ui.fragment.weather.WeatherViewModel
+import com.ngoctan.mvvm_project.presentation.ui.fragment.location_weather.LocationWeatherViewModel
 import com.ngoctan.mvvm_project.presentation.ui.fragment.story.StoryViewModel
 import com.ngoctan.mvvm_project.presentation.ui.fragment.topic.StoryTopicViewModel
 import com.ngoctan.mvvm_project.presentation.ui.fragment.user.UserViewModel
 
 object ViewModelModule {
     val homeViewModel by lazy {
-        HomeViewModel()
+        WeatherViewModel()
     }
 
     val userViewModel by lazy {
@@ -25,6 +26,10 @@ object ViewModelModule {
 
     val storyContentViewModel by lazy {
         StoryContentViewModel()
+    }
+
+    val locationWeatherViewModel by lazy {
+        LocationWeatherViewModel()
     }
 
 }

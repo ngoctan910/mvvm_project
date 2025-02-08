@@ -8,4 +8,6 @@ interface AppRepository {
     fun getWeather(city: String): Flow<Weather>
 
     fun getStories(): Flow<StoryModel>
+
+    fun getLocationWeather(lat: String, lon: String): Flow<Weather>
 }

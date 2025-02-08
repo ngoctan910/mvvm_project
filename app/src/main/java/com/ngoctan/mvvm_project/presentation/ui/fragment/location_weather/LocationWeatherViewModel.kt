@@ -1,4 +1,4 @@
-package com.ngoctan.mvvm_project.presentation.ui.fragment.home
+package com.ngoctan.mvvm_project.presentation.ui.fragment.location_weather
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,15 +8,15 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-class HomeViewModel: ViewModel() {
+class LocationWeatherViewModel: ViewModel() {
     private val appRepository = AppRepositoryModule.appRepository
-    private var _weather: MutableStateFlow<Weather?> = MutableStateFlow(null)
-    val weather: StateFlow<Weather?> = _weather
+    private var _locationWeather: MutableStateFlow<Weather?> = MutableStateFlow(null)
+    val locationWeather: StateFlow<Weather?> = _locationWeather
 
-    fun currentWeather(city: String) {
+    fun getLocationWeather(lat: String, lon: String) {
         viewModelScope.launch {
-            appRepository.getWeather(city).collect { weather ->
-                _weather.value = weather
+            appRepository.getLocationWeather(lat, lon).collect { weather ->
+                _locationWeather.value = weather
             }
         }
     }

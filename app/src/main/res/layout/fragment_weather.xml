@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#CE0277BD"
+    android:background="@drawable/background_weather"
     android:paddingTop="20dp"
     android:paddingHorizontal="20dp">
 

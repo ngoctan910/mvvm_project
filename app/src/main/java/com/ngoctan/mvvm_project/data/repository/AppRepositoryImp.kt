@@ -1,5 +1,6 @@
 package com.ngoctan.mvvm_project.data.repository
 
+import android.util.Log
 import com.google.gson.Gson
 import com.ngoctan.mvvm_project.application.MainApplication
 import com.ngoctan.mvvm_project.data.model.story.StoryModel
@@ -19,8 +20,10 @@ class AppRepositoryImp: AppRepository {
     override fun getWeather(city: String): Flow<Weather> = flow {
         val response = apiService.getWeather(city, "5b14bf48d1725eec39f8fc50ce94680c"
                                             ,"metric")
+
         if (response.isSuccessful) {
             response.body()?.let { weather ->
+                Log.d("location", weather.toString())
                 emit(weather)
             }
         }
@@ -39,6 +42,17 @@ class AppRepositoryImp: AppRepository {
             e.printStackTrace()
         }
     }.flowOn(Dispatchers.IO)
+
+    override fun getLocationWeather(lat: String, lon: String): Flow<Weather> = flow {
+        val response = apiService.getLocationWeather(lat, lon, "5b14bf48d1725eec39f8fc50ce94680c", "metric ")
+
+        if (response.isSuccessful) {
+            response.body()?.let { weather ->
+                Log.d("location", "getLocationWeather: $weather")
+                emit(weather)
+            }
+        }
+    }
 
 
 }
