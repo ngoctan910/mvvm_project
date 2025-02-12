@@ -6,12 +6,12 @@ plugins {
 }
 
 android {
-    namespace = "com.ngoctan.mvvm_project"
+    namespace = "com.ngoctan.news_app"
     compileSdk = 34
 
 
     defaultConfig {
-        applicationId = "com.ngoctan.mvvm_project"
+        applicationId = "com.ngoctan.news_app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

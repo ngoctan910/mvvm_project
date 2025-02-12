@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.weather.WeatherFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.weather.WeatherFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" >
     </fragment>
 
     <fragment
         android:id="@+id/userFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.user.UserFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.user.UserFragment"
         android:label="UserFragment"
         tools:layout="@layout/fragment_user" />
 
     <fragment
         android:id="@+id/weatherFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.weather.WeatherFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.weather.WeatherFragment"
         tools:layout="@layout/fragment_weather"
         android:label="Weather Fragment" />
 
     <fragment
         android:id="@+id/storiesFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.topic.StoryTopicFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.topic.StoryTopicFragment"
         tools:layout="@layout/fragment_stories"
         android:label="Story Fragment" />
 
     <fragment
         android:id="@+id/topicStoryFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.topic.StoryTopicFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.topic.StoryTopicFragment"
         tools:layout="@layout/fragment_story_topic">
 
         <action
@@ -43,7 +43,7 @@
 
     <fragment
         android:id="@+id/storyFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.story.StoryFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.story.StoryFragment"
         tools:layout="@layout/fragment_title">
 
         <action
@@ -53,12 +53,12 @@
 
     <fragment
         android:id="@+id/storyContentFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.content.StoryContentFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.content.StoryContentFragment"
         tools:layout="@layout/fragment_content" />
 
     <fragment
         android:id="@+id/locationWeatherFragment"
-        android:name="com.ngoctan.mvvm_project.presentation.ui.fragment.location_weather.LocationWeatherFragment"
+        android:name="com.ngoctan.news_app.presentation.ui.fragment.location_weather.LocationWeatherFragment"
         tools:layout="@layout/fragment_location" />
 
 </navigation>
