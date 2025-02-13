@@ -1,21 +1,14 @@
 package com.ngoctan.news_app.data.network
 
-import com.ngoctan.news_app.data.model.weather.Weather
+import com.ngoctan.news_app.data.model.news.NewsModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface ApiService {
-
-    @GET("weather")
-    suspend fun getWeather(@Query("q") cityName: String, @Query("appid") id: String,
-                    @Query("units") units: String): Response<Weather>
-
-    @GET("weather")
-    suspend fun getLocationWeather(
-        @Query("lat") latitude: String,
-        @Query("lon") longitude: String,
-        @Query("appid") id: String,
-        @Query("units") units: String
-    ): Response<Weather>
+    @GET("v2/top-headlines")
+    suspend fun getNews(
+        @Query("sources") sources: String,
+        @Query("apiKey") apiKey: String
+    ): Response<NewsModel>
 }

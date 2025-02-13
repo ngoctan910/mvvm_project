@@ -1,58 +1,23 @@
 package com.ngoctan.news_app.data.repository
 
 import android.util.Log
-import com.google.gson.Gson
-import com.ngoctan.news_app.application.MainApplication
-import com.ngoctan.news_app.data.model.story.StoryModel
-import com.ngoctan.news_app.data.model.weather.Weather
+import com.ngoctan.news_app.data.model.news.NewsModel
 import com.ngoctan.news_app.data.network.RetrofitClient
 import com.ngoctan.news_app.domain.reponsitory.AppRepository
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOn
-import java.io.IOException
 
 class AppRepositoryImp: AppRepository {
     val apiService = RetrofitClient.apiService
-    val context = MainApplication.getInstance().applicationContext
 
-    override fun getWeather(city: String): Flow<Weather> = flow {
-        val response = apiService.getWeather(city, "5b14bf48d1725eec39f8fc50ce94680c"
-                                            ,"metric")
+    override fun getNews(): Flow<NewsModel> = flow {
+        val response = apiService.getNews("techcrunch", "5230f46ffd4c4190a99018793afda7b6")
 
         if (response.isSuccessful) {
-            response.body()?.let { weather ->
-                Log.d("location", weather.toString())
-                emit(weather)
+            response.body()?.let { newsModel ->
+                Log.d("news", newsModel.toString())
+                emit(newsModel)
             }
         }
     }
-
-    override fun getStories(): Flow<StoryModel> = flow {
-        try {
-            val result = context.assets.open("stories.txt").bufferedReader().use {
-                it.readText()
-            }
-
-            val gsonStoryModel = Gson().fromJson(result, StoryModel::class.java)
-            emit(gsonStoryModel)
-
-        } catch (e: IOException) {
-            e.printStackTrace()
-        }
-    }.flowOn(Dispatchers.IO)
-
-    override fun getLocationWeather(lat: String, lon: String): Flow<Weather> = flow {
-        val response = apiService.getLocationWeather(lat, lon, "5b14bf48d1725eec39f8fc50ce94680c", "metric ")
-
-        if (response.isSuccessful) {
-            response.body()?.let { weather ->
-                Log.d("location", "getLocationWeather: $weather")
-                emit(weather)
-            }
-        }
-    }
-
-
 }
